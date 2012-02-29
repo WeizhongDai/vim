@@ -130,8 +130,8 @@ set completeopt=longest,menu " 只在下拉菜单中显示匹配项目，并且�
 " 代码折叠
 set foldenable
 " set foldmethod=indent
-set foldcolumn=0
-setlocal foldlevel=1
+" set foldcolumn=0
+" setlocal foldlevel=1
 
 " 带有如下符号的单词不要被换行分割
 set iskeyword+=_,$,@,%,#,-
@@ -546,9 +546,9 @@ let g:user_zen_expandabbr_key = '<c-e>'
 " 其他
 " =====================
 " 打开js折叠
-" let b:javascript_fold=1
+let b:javascript_fold=1
 " 打开javascript对dom、html和css的支持
-" let javascript_enable_domhtmlcss=1
+let javascript_enable_domhtmlcss=1
 
 if &diff
     nmap <leader>pd [c
