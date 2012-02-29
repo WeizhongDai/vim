@@ -129,9 +129,9 @@ set completeopt=longest,menu " 只在下拉菜单中显示匹配项目，并且�
 
 " 代码折叠
 set foldenable
-" set foldmethod=indent
-" set foldcolumn=0
-" setlocal foldlevel=1
+set foldmethod=indent
+set foldcolumn=0
+setlocal foldlevel=1
 
 " 带有如下符号的单词不要被换行分割
 set iskeyword+=_,$,@,%,#,-
@@ -322,8 +322,8 @@ if has("autocmd")
 			\ endif
     augroup END
 
-    " Auto Check Syntax
-    au BufWritePost,FileWritePost *.js,*.php call CheckSyntax(1)
+    " Auto Check Syntax (plugin)
+    " au BufWritePost,FileWritePost *.js,*.php call CheckSyntax(1)
 
     " JavaScript 语法高亮
     au FileType html,javascript let g:javascript_enable_domhtmlcss = 1
