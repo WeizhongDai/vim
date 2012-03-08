@@ -129,7 +129,7 @@ set completeopt=longest,menu " 只在下拉菜单中显示匹配项目，并且�
 
 " 代码折叠
 set foldenable
-set foldmethod=indent
+" set foldmethod=indent
 set foldcolumn=0
 setlocal foldlevel=1
 
@@ -174,7 +174,7 @@ if has("gui_running")
 endif
 
 " Set hidden to undo buffer
-set hidden
+" set hidden
 
 "cliboard seting
 set clipboard+=unnamed " set clipboard
@@ -220,7 +220,7 @@ endif
 " =====================
 if has('gui_running')
     "set guioptions=mcr " 只显示菜单
-    "set guioptions=   " 隐藏全部的gui选项
+    set guioptions=   " 隐藏全部的gui选项
     "set guioptions+=r " 显示gui右边滚动条
     "Toggle Menu and Toolbar 使用F2隐藏/显示菜单
     set guioptions-=m
@@ -247,12 +247,12 @@ if has('gui_running')
         " 字体配置
         "exec 'set guifont='.iconv('Courier_New', &enc, 'gbk').':h10:cANSI'
         "exec 'set guifontwide='.iconv('微软雅黑', &enc, 'gbk').':h10'
-        set guifont=YaHei_Consolas_Hybrid:h12:cANSI
+        set guifont=YaHei_Consolas_Hybrid:h11:cANSI
         set guifontwide=YaHei_Consolas_Hybrid:h12
     endif
 
     if has("unix") && !has('gui_macvim')
-        set guifont=Courier\ 11\ Pitch\ 12
+        set guifont=Monaco\ 10
     endif
 
     if has("mac") || has("gui_macvim")
