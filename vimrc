@@ -1,8 +1,3 @@
-if v:version < 700
-    echoerr 'This _vimrc requires Vim 7 or later.'
-    quit
-endif
-
 " bundle
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -483,7 +478,7 @@ map <leader>of :copen<cr>
 map <leader>cf :cclose<cr>
 
 " prefixr
-map <leader>p :Prefixr<cr>
+map <leader>p :Prefixr1<cr>
 
 " 让注释与语句间保留一个空格
 let NERDSpaceDelims=1
