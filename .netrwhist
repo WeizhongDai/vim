@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/alan/my-github/baseJs'
 let g:netrw_dirhist_2='/home/alan/my-github/test/binary-search'
+let g:netrw_dirhist_3='/home/alan/.fontconfig'

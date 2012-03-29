@@ -477,8 +477,8 @@ map <leader>ne :cn<cr>
 map <leader>of :copen<cr>
 map <leader>cf :cclose<cr>
 
-" prefixr
-map <leader>p :Prefixr1<cr>
+" prefixer
+map <leader>p :Prefixer1<cr>
 
 " 让注释与语句间保留一个空格
 let NERDSpaceDelims=1
