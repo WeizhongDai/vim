@@ -132,9 +132,9 @@ setlocal foldlevel=1
 set iskeyword+=_,$,@,%,#,-
 
 " 显示tab和空格
-set list
+" set list
 " 设置tab和空格样式
-set listchars=tab:\|\ ,nbsp:%,trail:-
+" set listchars=tab:\|\ ,nbsp:%,trail:-
 
 " 设定行首tab为灰色
 highlight LeaderTab guifg=#888888
