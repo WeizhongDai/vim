@@ -536,6 +536,16 @@ au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 "修改zencoding快捷鍵
 let g:user_zen_expandabbr_key = '<c-e>'
 
+" Ctrlp
+let g:ctrlp_map = '<c-p>'  " Leave this empty to disable the default mapping
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 2
+" let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
+" let g:ctrlp_custom_ignore = {
+	" \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+	" \ 'file': '\.exe$\|\.so$\|\.dll$',
+	" \ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+	" \ }
 
 " =====================
 " 其他
