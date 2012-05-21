@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/alan/my-github/baseJs'
 let g:netrw_dirhist_2='/home/alan/my-github/test/binary-search'
 let g:netrw_dirhist_3='/home/alan/.fontconfig'
 let g:netrw_dirhist_4='/home/alan/my-github/test'
+let g:netrw_dirhist_5='/usr/share/X11/xorg.conf.d'
+let g:netrw_dirhist_6='/etc'
+let g:netrw_dirhist_7='/home/alan/workspace/xiaobing/sanguo_yangzhou/xiaobing/tpl'
+let g:netrw_dirhist_8='/home/alan/workspace/xiaobing/sanguo'

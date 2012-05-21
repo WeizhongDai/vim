@@ -24,14 +24,14 @@ let g:solarized_termtrans=1
 " let g:solarized_bold=1
 
 "Highlight current
-if has("gui_running")
+" if has("gui_running")
     set cursorline
     set cursorcolumn
-    "hi cursorline guibg=#0D142C
-    "hi cursorline guibg=#FCF5C9
-    "hi CursorColumn guibg=#FCF5C9
-    "hi CursorColumn guibg=#FCF5C9
-endif
+    " hi cursorline guibg=#0D142C
+    " hi cursorline guibg=#FCF5C9
+    " hi CursorColumn guibg=#FCF5C9
+    " hi CursorColumn guibg=#FCF5C9
+" endif
 
 
 " 获取当前目录
