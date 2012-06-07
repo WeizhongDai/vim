@@ -462,6 +462,11 @@ nmap b :<C-U>call BufPos_ActivateBuffer(v:count)<CR>
 " =====================
 "  插件配置
 " =====================
+" vim-javascript
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
+
 " NERD Tree
 map <F6> :NERDTreeToggle<CR>
 imap <F6> <ESC>:NERDTreeToggle<CR>
